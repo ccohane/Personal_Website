@@ -1,0 +1,146 @@
+/*
+	canvas-template.css 
+*/
+
+/* -------------------------------------------------------------- */
+/* Fonts */
+
+/* find fonts that you like from https://www.google.com/fonts/ and include them here*/
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+@import url(https://fonts.googleapis.com/css?family=Special+Elite);
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* -------------------------------------------------------------- */
+/* Framing Styles */
+
+body { 
+    background-color: #B3DFF9;
+}
+
+.pad{
+    padding-left: 20px;
+}
+
+h1{
+    color: black;
+    padding-top: 5px;
+    font-size: 44px;
+    font-family: 'Special+Elite', sans-serif;
+}
+
+
+.copyRights{
+    background-color: #3685B5;
+    font-size: 14px;
+    padding: 7px;
+    text-align: center;
+}
+
+
+p{
+    color:black;
+    font-family: 'Roboto', sans-serif;
+}
+
+b{
+    font-size: 110%;
+}
+
+
+/* -------------------------------------------------------------- */
+/* Text Color Rules */
+
+.red {
+    color: #ff0000; 
+}
+
+.blue {
+    color: #0000ff;  
+}
+
+.green {
+    color: #00ff00;
+}
+
+.black {
+    color: black;
+}
+
+.bg-gray{
+    background-color: dimgray;
+}
+
+.bg-lightGray{
+    background-color: lightgray;
+}
+.bg-red {
+    background-color: #C20114;
+}
+
+.bg-green {
+    background-color: #018E42;
+}
+
+.bg-blue {
+    background-color: #B3DFF9;
+}
+
+.bg-white {
+    background-color: #FFFFF0;
+}
+
+.bg-black {
+    background-color: #0C120C;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+
+/* --------------------------------- */
+/*  Link Style Rules */
+.header {
+    background-color: dimgray;
+    color: black;
+}
+
+.header a:link, a:visited {
+    color: black;
+    text-align: center; 
+    text-decoration: none;
+    padding: 18px 15px;
+    display: inline-block;
+    
+}
+
+.header a:hover, a:active {
+    color: black;   
+    background-color: white;
+    font-size: 17px;
+}
+ 
+.footer{
+    background-color: dimgray;
+}
+.footer a:link, a:visited {
+    color: #ffffff;
+    text-align: center; 
+    text-decoration: none;
+    padding: 10px 11px;
+    display: inline-block;
+}
+
+.footer a:hover, a:active {
+    color: black;  
+    background-color: whitesmoke;
+}

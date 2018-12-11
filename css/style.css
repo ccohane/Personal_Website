@@ -1,0 +1,278 @@
+/*
+    style.css
+
+    This is the page that will have all the CSS for our project site.
+    Be sure to follow the order of the rules in this this file.
+*/
+
+/* ========================================================= */
+
+/*  IMPORTS for fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed');
+
+/* ========================================================= */
+
+/*  Font Style Rules */
+
+
+body,
+p {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #010C26;
+    background-color: #B1BDC6;
+}
+
+/* ========================================================= */
+section{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/* Text Style Rules */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 5px;
+    line-height: 1.375em;
+}
+
+.titles-info{
+    font-size: 20px;
+    color: Black;
+    padding-left: 50px;
+    
+}
+.titles{
+    font-size: 20px;
+    font-weight: 900;
+    color: Black;
+}
+.Color-Black{
+    color: Black;
+}
+
+.color-Lightgrey{
+    color: #B1BDC6;
+}
+
+/* HR Styles */
+
+
+
+/* ========================================================= */
+
+/*  Rules */
+
+/* Container Section */
+
+.container-fluid,
+.container {
+    padding: 5px 0px;
+}
+
+.text-spacing {
+    padding: 0.35em;
+}
+
+.section-spacing {
+    padding: 0.0em;
+}
+
+/* ========================================================= */
+
+/* Color Style Rules
+
+    Reference:  coolors.co
+
+    .gold   #FF9F1C
+    .grey   #333745
+    .blue   #084887
+    .red    #BF211E
+    .white  #F7F5FB
+*/
+
+.bg-yellow {
+    background-color: #F5FF44;
+    color: #333745 !important;
+}
+
+.bg-lightBlue {
+    background-color: #B9D6F2;
+    color: #041F3D !important;
+}
+
+.bg-blue {
+    background-color: #041F3D;
+    color: #F7F5FB !important;
+}
+
+.bg-lightGrey {
+    background-color: #B1BDC6;
+    color: #333745 !important;
+}
+
+.bg-white {
+    background-color: #F7F5FB;
+    color: #333745 !important;
+}
+
+.bg-red {
+    background-color: #BF211E;
+    color: #F7F5FB !important;
+}
+
+.text-white {
+    color: #F7F5FB !important;
+}
+
+/* ========================================================= */
+
+/* Button Styles */
+
+.btn {
+    border: 1px solid #041F3D;
+    background-color: #041F3D !important;
+    color: #F7F5FB;
+}
+
+.btn:hover {
+    border: 1px solid #041F3D;
+    background-color: #F7F5FB !important;
+    color: #041F3D;
+}
+
+/* ========================================================= */
+
+/* Tabs */
+
+/* Tabs .borders :: Add borders to tab content */
+
+.nav-tabs .nav-link {
+    background-color: #F7F5FB;
+    color: #041F3D !important;
+    border-color: #041F3D;
+    font-size: 20px;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    background-color: #F7F5FB;
+    color: #041F3D !important;
+    border-color: #041F3D;
+    font-size: 20px;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    background-color: #041F3D;
+    color: #F7F5FB !important;
+    border-color: #041F3D;
+    font-size: 20px;
+}
+
+
+/* ========================================================= */
+
+/* Navbar */
+
+.navbar {
+    background-color: #041F3D !important;
+}
+
+.navbar .navbar-brand {
+    color: #ecf0f1;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #f7f5fb;
+}
+
+.navbar .navbar-text {
+    color: #ecf0f1;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #ecf0f1;
+    border-radius: .55rem;
+    margin: 0 0.25em;
+}
+
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #f7f5fb;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #f7f5fb;
+    background-color: #041F3D;
+}
+
+.navbar .navbar-toggle {
+    border-color: #041F3D;
+}
+
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: #041F3D;
+}
+
+.navbar .navbar-toggle .navbar-toggler-icon {
+    color: #ecf0f1;
+}
+
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: #ecf0f1;
+}
+
+.navbar .navbar-link {
+    color: #ecf0f1;
+}
+
+.navbar .navbar-link:hover {
+    color: #f7f5fb;
+}
+
+
+/* ========================================================= */
+
+/* Modal styles */
+
+.modal-header {
+    background-color: #041F3D;
+    color: #F7F5FB !important;
+    padding: 15px;
+    border-bottom: 1px solid #e9ecef;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+
+/* ========================================================= */
+
+.textWhite {
+    color: #ecf0f1;
+}

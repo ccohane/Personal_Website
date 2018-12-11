@@ -1,0 +1,86 @@
+/*
+    funWithJS.css
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: azure;
+    color: black;
+}
+
+
+#container1 {
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+
+/* -------------------------------------------------------------- */
+/* Alignment Rules */
+
+.center-text {
+    text-align: center;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:  10px;
+}
+
+.bg-salmon {
+    background-color: salmon;
+}
+.bg-red {
+    background-color: rgba( 255, 0, 0, 1 );
+}
+
+.bg-green {
+    background-color: rgba( 0, 255, 0, 1 );
+}
+
+.bg-blue {
+    background-color: rgba( 0, 0, 255, 1 );
+}
+
+.bg-white {
+    background-color: rgba( 255, 255, 255, 1 );
+}
+
+.bg-black {
+    background-color: rgba( 0, 0, 0, 1 );
+}
+
+.red {
+    color: rgba( 255, 0, 0, 1 );
+}
+
+.green {
+
+    color: rgba( 0, 255, 0, 0.5 );
+}
+
+.blue {
+    color: rgba( 0, 0, 255, 1 );
+}
+
+.white {
+    color: rgba( 255, 255, 255, 1 );
+}
+
+.black {
+    color: rgba( 0, 0, 0, 1 );
+}
+
+.orange {
+    color:  #FF9900;
+}
