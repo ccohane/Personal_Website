@@ -132,50 +132,80 @@
     </section>
     <!--^^section -->
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
-    <hr>
-    <section id="Section4" class="bg-lightGrey">
-            <h1 class="Color-Black">Projects</h1>
+    <section id="Section4" style="background-color: aliceblue" class=" mt-2 ml-0 mr-0">
+            <h1 class="Color-Black ml-5 mt-5 text-center">Projects</h1>
             <!-- fixed nav bar cluge -->
             <br>
             <div class="container-fluid">
-    
-    
-                <div class="card-deck">
-                    <div class="card">
-                        <div class="card-header bg-blue">
-                            <h3 href = "http://junglerestaurants.ml/">Jungle</h3>
+                <div class="row ml-0 mr-0" style="background-color: aliceblue">
+                    <div class='col-sm-4'>
+                            <a class= 'card-img-top ml-5 mr-5 w-50 mx-auto' href = "http://junglerestaurants.ml/"><img class=" ml-5 mr-5" src="static/imgs/moose.png" alt="Jungle"></a>
+                            <a href = "http://junglerestaurants.ml/" target="_blank"><h1 class="text-center" style="color: black">Jungle</h1> </a>
                         </div>
-                        <div class="card-body">
-                            
+                    <div class='col-sm-4'>
+                        <h2>About Jungle</h2>
                                 Michael Zhang and I developed a Flask application to recommended 
                                 restaurants to users based of a matrix factorization algorithm that 
                                 was run on multiple gigabyte files. We also ran some natural language
                                 processing algorithms on written reviews to categorize then into star reviews.
-                        
-                        </div>
                     </div>
-    
-    
-                    <div class="card">
-                        <div class="card-header bg-blue">
-                            <h3>Multi-Media Programming</h3>
-                        </div>
-                        <div class="card-body">
-                            I took a class at Ithaca College called Multimedia Programmimg and one project that I am very proud of is the Brick Breaker game that I created with Sami Wiles. Click the Image to Play.
-                            <a href="CalBrickBreaker.html">
-                            <img src="static/imgs/BrickBreaker.png" alt="Picture of Brick Breaker" class="img-fluid mx-auto d-block w-50"></a>
-                        </div>
+                    <div class='col-sm-4'>
+                            <h1 class="Color-Black">Tech Used</h1>
+                            <button class="mb-1 ml-1 mt-1 mr-1"> Python </button> 
+                            <button class="mb-1 ml-1 mt-1 mr-1"> HTML </button> <button class="mb-1 ml-1 mt-1 mr-1"> CSS </button> 
+                            <button class="mb-1 ml-1 mt-1 mr-1"> Flask </button> <button class="mb-1 ml-1 mt-1 mr-1"> Bash </button>
+                            <button class="mb-1 ml-1 mt-1 mr-1"> Pandas </button> <button class="mb-1 ml-1 mt-1 mr-1"> Numpy </button>
+                            <button class="mb-1 ml-1 mt-1 mr-1"> Matrix Factorization </button>
+                            <button class="mb-1 ml-1 mt-1 mr-1"> Natural Language Processing </button> 
                     </div>
-    
-                    <div class="card">
-                        <div class="card-header bg-blue">
-                            <h3>Python and Java</h3>
-                        </div>
-                        <div class="card-body">
-                            I also took introductory computer science classes for the coding languages Python and Java. These classes taught me the syntax and how obect-oriented programming works. I am very interested in these subjects and want to enter into a career in the fintech industry using python. 
-                        </div>
+                
+                </div>
+                <hr>
+                <div class="row bg-lightGrey" >
+                    <div class="col-sm-4 mt-2">
+                            <a class= 'card-img-top ml-5 mr-5 w-50 mx-auto' href = "http://Overwatchleaguecryptobets.ml/"><img class="ml-5 mr-5" src="https://upload.wikimedia.org/wikipedia/en/9/95/Overwatch_League_logo.png" alt="Jungle"></a>
+                            <a href = "http://Overwatchleaguecryptobets.ml/" target="_blank"><h1 class="text-center" style="color: black">Overwatch League CryptoBets</h1> </a>
+                    </div>
+                    <div class="col-sm-4 mt-2" style="color: black">
+                        <h1 style="color: black">About OWL CryptoBets</h1>
+                        OWL CryptoBets is a decentralized application which allows it's users to bet on OWL Stage Playoff games with ether. 
+                        I developed a smart contract in Solidity and tested it using Truffle and the Remix IDE. 
+                        The front end was create using React framework. 
+                        It is currently deployed to the Ropsten Test Network where you can place bets on who 
+                        will come in first place and second place. Users recieve ERC721 Tokens for their bets 
+                        and will be able to recieve prize money if they have a correct token after stage results are set. 
+                    </div>
+                    <div class="col-sm-4 mt-2">
+                            <h1 style="color: black">Tech Used</h1>
+                            <button class="mb-1 ml-1 mt-1 mr-1"> Solidity </button> <button class="mb-1 ml-1 mt-1 mr-1"> Javascript </button>
+                            <button class="mb-1 ml-1 mt-1 mr-1"> HTML </button> <button class="mb-1 ml-1 mt-1 mr-1"> CSS </button> 
+                            <button class="mb-1 ml-1 mt-1 mr-1"> React.js </button> <button class="mb-1 ml-1 mt-1 mr-1"> Truffle </button> 
+                            <button class="mb-1 ml-1 mt-1 mr-1"> Web3.js </button> 
+                            <button class="mb-1 ml-1 mt-1 mr-1"> Node.js </button> <button class="mb-1 ml-1 mt-1 mr-1"> Remix IDE </button>
+                            <button class="mb-1 ml-1 mt-1 mr-1"> JSX </button> <button class="mb-1 ml-1 mt-1 mr-1"> ES6 </button> 
                     </div>
                 </div>
+                
+                <hr>
+                <div class= "row">
+                    <div class="col-sm-4">
+                        <a href="/Brick_Breaker">
+                        <img src="static/imgs/BrickBreaker.png" alt="Picture of Brick Breaker" class="img-fluid mx-auto d-block w-50">
+                        <h1 style='color: black' class= "text-center">Brick Breaker</h1></a>
+                    </div>
+                    <div class="col-sm-4">
+                        <h1>About Brick Breaker</h1>
+                        I recreated Brick Breaker using html canvas with a javascript backend. 
+                        This was a lot more difficult than I expected because I didn't use 
+                        any game libraries to help me and used pure javascript. 
+                    </div>
+                    <div class="col-sm-4">
+                            <h1 class="Color-Black">Tech Used</h1>
+                            <button class="mb-1 ml-1 mt-1 mr-1"> Javascript </button>
+                            <button class="mb-1 ml-1 mt-1 mr-1"> HTML </button> <button class="mb-1 ml-1 mt-1 mr-1"> CSS </button> 
+                    </div>
+                </div>
+                
     
             </div>
             <br>
